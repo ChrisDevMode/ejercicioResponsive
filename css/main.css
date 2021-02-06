@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: .75em;
+}
+
+body {
+    background-color: black;
+    padding: 1.2rem;
+}
+
+body > *:not(.wrapper) {
+    padding: 1.2rem;
+}
+
+.wrapper > * {
+    padding: 1.2rem;
+}
+
+header {
+    background-color: lightblue;
+}
+
+.hero {
+    background-color: lightcoral;
+}
+
+main {
+    background-color: lightgreen;
+}
+
+aside {
+    background-color: lightseagreen;
+}
+
+footer {
+    background-color: lightsalmon;
+}
